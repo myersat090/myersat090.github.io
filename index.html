@@ -43,7 +43,7 @@ ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF S
 DAMAGE.
 " />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
-<title>TiddlyWiki — a non-linear personal web notebook</title>
+<title>Andrew's CodeBook — All Things Referencing Dev</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~--><!--~~ Raw markup ~~-->
 
 </head>
@@ -115,7 +115,54 @@ Error message and password prompt
 <noscript>
 <div id="splashArea">
 
-<div class=" tc-reveal" hidden="true"></div>
+<p>This <a class="tc-tiddlylink-external" href="http://tiddlywiki.com" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
+
+<li>$:/core</li>
+
+<li>$:/DefaultTiddlers</li>
+
+<li>$:/isEncrypted</li>
+
+<li>$:/SiteSubtitle</li>
+
+<li>$:/SiteTitle</li>
+
+<li>$:/state/showeditpreview</li>
+
+<li>$:/state/sidebar</li>
+
+<li>$:/state/tab/sidebar--1835078512</li>
+
+<li>$:/state/toc/TOC-HTML--1128538129</li>
+
+<li>$:/state/toc/TOC-HTML--905799206</li>
+
+<li>$:/StoryList</li>
+
+<li>$:/temp/info-plugin</li>
+
+<li>$:/temp/search</li>
+
+<li>$:/temp/toc/selectedTiddler</li>
+
+<li>$:/themes/tiddlywiki/snowwhite</li>
+
+<li>$:/themes/tiddlywiki/vanilla</li>
+
+<li>CCS</li>
+
+<li>GettingStarted</li>
+
+<li>HTML</li>
+
+<li>JS</li>
+
+<li>Opener</li>
+
+<li>Startup</li>
+
+</ul>
+</p>
 
 
 
@@ -6173,8 +6220,55 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div created="20160510203622160" modified="20160510210039317" title="$:/DefaultTiddlers">
+<pre>Startup</pre>
+</div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
+</div>
+<div created="20160510203607882" modified="20160510203615954" title="$:/SiteSubtitle">
+<pre>All Things Referencing Dev</pre>
+</div>
+<div created="20160510203552965" modified="20160510203604322" title="$:/SiteTitle">
+<pre>Andrew's CodeBook</pre>
+</div>
+<div created="20160510203949142" modified="20160510203949142" title="$:/state/showeditpreview">
+<pre>yes</pre>
+</div>
+<div created="20160510210024898" modified="20160510210048235" title="$:/state/sidebar">
+<pre>no</pre>
+</div>
+<div created="20160510205233415" modified="20160510205233415" title="$:/state/tab/sidebar--1835078512">
+<pre>Test</pre>
+</div>
+<div created="20160510205146043" modified="20160510205146043" title="$:/state/toc/TOC-HTML--1128538129">
+<pre>open</pre>
+</div>
+<div created="20160510205245834" modified="20160510205245834" title="$:/state/toc/TOC-HTML--905799206">
+<pre>open</pre>
+</div>
+<div list="Startup" title="$:/StoryList">
+<pre></pre>
+</div>
+<div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
+<pre>{
+    &quot;tiddlers&quot;: {
+        &quot;$:/info/browser&quot;: {
+            &quot;title&quot;: &quot;$:/info/browser&quot;,
+            &quot;text&quot;: &quot;yes&quot;
+        },
+        &quot;$:/info/node&quot;: {
+            &quot;title&quot;: &quot;$:/info/node&quot;,
+            &quot;text&quot;: &quot;no&quot;
+        }
+    }
+}</pre>
+</div>
+<div created="20160510210031230" modified="20160510210044311" title="$:/temp/search">
+<pre></pre>
+</div>
+<div created="20160510205029236" modified="20160510210107227" title="$:/temp/toc/selectedTiddler">
+<pre>JS</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.11">
 <pre>{
@@ -6280,6 +6374,45 @@ Error message and password prompt
         }
     }
 }</pre>
+</div>
+<div created="20160510205019598" modified="20160510205026820" tags="TOC" title="CCS">
+<pre></pre>
+</div>
+<div created="20160510203631228" modified="20160510203631228" title="GettingStarted">
+<pre>\define lingo-base() $:/language/ControlPanel/Basics/
+Welcome to ~TiddlyWiki and the ~TiddlyWiki community
+
+Before you start storing important information in ~TiddlyWiki it is important to make sure that you can reliably save changes. See http://tiddlywiki.com/#GettingStarted for details
+
+!! Set up this ~TiddlyWiki
+
+&lt;div class=&quot;tc-control-panel&quot;&gt;
+
+|&lt;$link to=&quot;$:/SiteTitle&quot;&gt;&lt;&lt;lingo Title/Prompt&gt;&gt;&lt;/$link&gt; |&lt;$edit-text tiddler=&quot;$:/SiteTitle&quot; default=&quot;&quot; tag=&quot;input&quot;/&gt; |
+|&lt;$link to=&quot;$:/SiteSubtitle&quot;&gt;&lt;&lt;lingo Subtitle/Prompt&gt;&gt;&lt;/$link&gt; |&lt;$edit-text tiddler=&quot;$:/SiteSubtitle&quot; default=&quot;&quot; tag=&quot;input&quot;/&gt; |
+|&lt;$link to=&quot;$:/DefaultTiddlers&quot;&gt;&lt;&lt;lingo DefaultTiddlers/Prompt&gt;&gt;&lt;/$link&gt; |&lt;&lt;lingo DefaultTiddlers/TopHint&gt;&gt;&lt;br&gt; &lt;$edit-text tag=&quot;textarea&quot; tiddler=&quot;$:/DefaultTiddlers&quot;/&gt;&lt;br&gt;//&lt;&lt;lingo DefaultTiddlers/BottomHint&gt;&gt;// |
+&lt;/div&gt;
+
+See the [[control panel|$:/ControlPanel]] for more options.
+</pre>
+</div>
+<div created="20160510205001110" modified="20160510205009323" tags="TOC" title="HTML">
+<pre></pre>
+</div>
+<div created="20160510205536149" modified="20160510205638041" tags="TOC" title="JS">
+<pre></pre>
+</div>
+<div created="20160510205133669" modified="20160510205836441" tags="HTML" title="Opener">
+<pre></pre>
+</div>
+<div created="20160510203946212" modified="20160510210111797" title="Startup">
+<pre>&lt;$macrocall
+	$name=&quot;toc-tabbed-internal-nav&quot;
+	tag=&quot;TOC&quot;
+	selectedTiddler=&quot;$:/temp/toc/selectedTiddler&quot;
+	unselectedText=&quot;&lt;p&gt;Select a topic in the table of contents. Click the arrow to expand a topic.&lt;/p&gt;&quot;
+	missingText=&quot;&lt;p&gt;Missing tiddler.&lt;/p&gt;&quot;
+/&gt;</pre>
 </div>
 
 </div>
